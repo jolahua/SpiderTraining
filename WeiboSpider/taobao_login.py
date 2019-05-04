@@ -19,6 +19,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from tools import weibo_username, weibo_password, chromedriver_path, pwd, user
+
 
 # 定义一个taobao类
 class TBInfo(object):
@@ -90,14 +92,8 @@ class TBInfo(object):
 
 if __name__ == "__main__":
 
-    chromedriver_path = r"E:\Jola\crawler\Spiders\chromedriver.exe"  # 改成你的chromedriver的完整路径地址
-    weibo_username = "515659704@qq.com"  # 改成你的微博账号
-    weibo_password = "jie741126."  # 改成你的微博密码
-
-    user = '做前先想想'
-    pwd = 'panjie19970620.'
-
     a = TBInfo()
-    a.login_main()  # 登录
+    a.login()  # 登录
+    # a.login_main()  # 登录
 
 
