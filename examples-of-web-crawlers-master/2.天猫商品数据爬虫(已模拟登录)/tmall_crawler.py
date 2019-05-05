@@ -24,7 +24,7 @@ class taobao_infos:
         options.add_experimental_option('excludeSwitches', ['enable-automation'])   # 此步骤很重要，设置为开发者模式，防止被各大网站识别出来使用了Selenium
 
         self.browser = webdriver.Chrome(executable_path=chromedriver_path, options=options)
-        self.wait = WebDriverWait(self.browser, 10)     # 超时时长为10s
+        self.wait = WebDriverWait(self.browser, 20)     # 超时时长为10s
 
     # 延时操作,并可选择是否弹出窗口提示
     def sleep_and_alert(self, sec, message, is_alert):
@@ -70,9 +70,9 @@ class taobao_infos:
         self.browser.get(self.url)
 
         # 等待 密码登录选项 出现
-        password_login = self.wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '.qrcode-login > .login-links > .forget-pwd')))
-        password_login.click()
+        # password_login = self.wait.until(
+        #     EC.presence_of_element_located((By.CSS_SELECTOR, '.qrcode-login > .login-links > .forget-pwd')))
+        # password_login.click()
         # 等待 微博登录选项 出现
         weibo_login = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '.weibo-login')))
         weibo_login.click()

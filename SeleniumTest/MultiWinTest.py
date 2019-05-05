@@ -12,7 +12,8 @@ from tools import chromedriver_path
 
 
 def main():
-    driver = webdriver.Chrome(executable_path=chromedriver_path)
+    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome(executable_path=chromedriver_path)
     # 打开浏览器，窗口最大化
     driver.maximize_window()
     driver.get("http://baidu.com")

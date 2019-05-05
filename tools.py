@@ -5,7 +5,7 @@
 # software-version: python 3.6
 
 
-chromedriver_path = r'E:\Jola\SpiderTraining\chromedriver.exe'
+chromedriver_path = r'E:\Jola\crawler\SpiderTraining\chromedriver.exe'
 
 weibo_username = "515659704@qq.com"  # 改成你的微博账号
 weibo_password = "jie741126."  # 改成你的微博密码

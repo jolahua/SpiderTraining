@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c257c4c-6660-4fe8-8c25-d798944fe1fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumTest/MultiWinTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spiders.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SpiderTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/slide_pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/test_tool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeiboSpider/taobao_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeiboSpider/taobao_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumTest/MultiWinTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumTest/MultiWinTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +21,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SpiderTraining$MultiWinTest.coverage" NAME="MultiWinTest Coverage Results" MODIFIED="1556805236538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumTest" />
+    <SUITE FILE_PATH="coverage/SpiderTraining$MultiWinTest.coverage" NAME="MultiWinTest Coverage Results" MODIFIED="1557042283199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumTest" />
+    <SUITE FILE_PATH="coverage/SpiderTraining$tmall_crawler.coverage" NAME="tmall_crawler Coverage Results" MODIFIED="1557042712109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)" />
     <SUITE FILE_PATH="coverage/SpiderTraining$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1556787581173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeiboSpider" />
     <SUITE FILE_PATH="coverage/Spiders$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1556536732579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeiboSpider" />
-    <SUITE FILE_PATH="coverage/SpiderTraining$tmall_crawler.coverage" NAME="tmall_crawler Coverage Results" MODIFIED="1556804273872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)" />
+    <SUITE FILE_PATH="coverage/SpiderTraining$slide_pic.coverage" NAME="slide_pic Coverage Results" MODIFIED="1557048856874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeiboSpider/taobao_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1351">
+            <state relative-caret-position="414">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#356#386#0" expanded="true" />
@@ -39,21 +44,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="169" column="17" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="17" />
+            <state relative-caret-position="189">
+              <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
               <folding>
                 <element signature="e#25#47#0" expanded="true" />
-                <element signature="e#1376#2489#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/slide_pic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/test_tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-738">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumTest/MultiWinTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#115#126#0" expanded="true" />
               </folding>
@@ -64,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="108">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -92,16 +114,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tools.py" />
-        <option value="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py" />
         <option value="$PROJECT_DIR$/WeiboSpider/taobao_login.py" />
         <option value="$PROJECT_DIR$/SeleniumTest/MultiWinTest.py" />
+        <option value="$PROJECT_DIR$/tools.py" />
+        <option value="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py" />
+        <option value="$PROJECT_DIR$/tools/slide_pic.py" />
+        <option value="$PROJECT_DIR$/tools/test_tool.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1266" />
-    <option name="y" value="76" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -121,6 +144,11 @@
               <item name="SpiderTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderTraining" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpiderTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,10 +157,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Document/selenium-中文文档/代码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Jola\crawler\SpiderTraining\tools" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,9 +179,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MultiWinTest">
+  <component name="RunManager" selected="Python.slide_pic">
     <configuration name="MultiWinTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spiders" />
+      <module name="SpiderTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -169,20 +202,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="taobao_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spiders" />
+    <configuration name="slide_pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiderTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeiboSpider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeiboSpider/taobao_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/slide_pic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +225,7 @@
       <method v="2" />
     </configuration>
     <configuration name="tmall_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spiders" />
+      <module name="SpiderTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -215,9 +248,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MultiWinTest" />
+        <item itemvalue="Python.slide_pic" />
         <item itemvalue="Python.tmall_crawler" />
-        <item itemvalue="Python.taobao_login" />
+        <item itemvalue="Python.MultiWinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,22 +266,24 @@
       <updated>1556521395146</updated>
       <workItem from="1556521396781" duration="4634000" />
       <workItem from="1556703940190" duration="8637000" />
+      <workItem from="1557027623251" duration="4659000" />
+      <workItem from="1557044045680" duration="3689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13271000" />
+    <option name="totallyTimeSpent" value="21619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3253796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4030668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5914567" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39868566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -256,8 +291,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286334" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39370933" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,52 +311,22 @@
           <line>175</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/slide_pic.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Env/ali_spider/Lib/site-packages/selenium/webdriver/common/action_chains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Env/ali_spider/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiboSpider/taobao_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1351">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#356#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="169" column="17" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="17" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <element signature="e#1376#2489#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python/Env/ali_spider/Lib/site-packages/selenium/webdriver/common/action_chains.py" />
+    <entry file="file://D:/Python/Env/ali_spider/Lib/site-packages/selenium/webdriver/support/wait.py" />
     <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/1.淘宝模拟登录/example.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -334,13 +339,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/VirtualEnv/SpiderTraining/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboSpider/taobao_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#356#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumTest/MultiWinTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#115#126#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/slide_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/test_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
