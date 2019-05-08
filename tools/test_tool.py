@@ -4,7 +4,6 @@
 # @Time: 2019/5/5 17:44
 
 
-# -*- coding: utf-8 -*-
 import random
 import re
 import time
@@ -25,24 +24,30 @@ class Vincent(object):
         chrome_option = webdriver.ChromeOptions()
         # chrome_option.set_headless()
 
-        self.driver = webdriver.Chrome(executable_path=r"D:\Google\Chrome\Application\chromedriver.exe", chrome_options=chrome_option)
-        # self.driver =webdriver.Chrome("D:\Google\Chrome\Application\chromedriver.exe")
-        self.driver.set_window_size(1440, 900)
+        self.driver = webdriver.Chrome(chrome_options=chrome_option)
+        # self.driver.set_window_size(1440, 900)
+        self.wait = WebDriverWait(self.driver, 10)
 
     def visit_index(self):
         # self.driver.get("https://www.Vincent.com/")
         self.driver.get("http://www.sgs.gov.cn/notice/")
 
-        self.driver.find_element_by_id("keyword").send_keys('中国长城工业上海有限公司')
-        WebDriverWait(self.driver, 10, 0.5).until(EC.element_to_be_clickable((By.ID, 'buttonSearch')))
-        reg_element = self.driver.find_element_by_id("buttonSearch")
+        search_input = self.wait.until(EC.presence_of_element_located((By.ID, 'keyword')))
+        search_input.send_keys('中国长城工业上海有限公司')
+
+        reg_element = self.wait.until(EC.element_to_be_clickable((By.ID, 'btn_query')))
+        # reg_element = self.driver.find_element_by_id("pop-captcha-submit")
         reg_element.click()
 
-        WebDriverWait(self.driver, 10, 0.5).until(
-            EC.element_to_be_clickable((By.XPATH, '//div[@class="gt_slider_knob gt_show"]')))
+        try:
+            WebDriverWait(self.driver, 10, 0.5).until(
+                EC.element_to_be_clickable((By.XPATH, '/html/body/div[7]/div[2]/div[6]/div')))
 
-        # 进入模拟拖动流程
-        self.analog_drag()
+            # 进入模拟拖动流程
+            self.analog_drag()
+        except:
+            print('===== 没有出现滑块验证码！ ==== ')
+            infos = self.driver.find_element_by_id('advs')
 
     def analog_drag(self):
         # 鼠标移动到拖动按钮，显示出拖动图片
@@ -93,8 +98,6 @@ class Vincent(object):
             ss=self.driver.find_element_by_xpath('//*[@id="wrap1"]/div[3]/div/div/div[2]').get_attribute("onclick")
             print(ss)
             ss=self.driver.find_element_by_xpath('//*[@id="wrap1"]/div[3]/div/div/div[2]').click()
-
-
 
     # 获取图片和位置列表
     def get_image_url(self, xpath):
@@ -184,6 +187,7 @@ class Vincent(object):
 
         ActionChains(self.driver).move_by_offset(distance, 1).perform()
         ActionChains(self.driver).release(on_element=element).perform()
+
 
 if __name__ == "__main__":
     h = Vincent()
