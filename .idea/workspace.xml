@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c257c4c-6660-4fe8-8c25-d798944fe1fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/test_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/test_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,7 @@
     <SUITE FILE_PATH="coverage/SpiderTraining$tmall_crawler.coverage" NAME="tmall_crawler Coverage Results" MODIFIED="1557042712109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)" />
     <SUITE FILE_PATH="coverage/SpiderTraining$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1556787581173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeiboSpider" />
     <SUITE FILE_PATH="coverage/SpiderTraining$test_tool.coverage" NAME="test_tool Coverage Results" MODIFIED="1557201758563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/SpiderTraining$test.coverage" NAME="test Coverage Results" MODIFIED="1557232584590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpiderTraining$test.coverage" NAME="test Coverage Results" MODIFIED="1559621117364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Spiders$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1556536732579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeiboSpider" />
     <SUITE FILE_PATH="coverage/SpiderTraining$slide_pic.coverage" NAME="slide_pic Coverage Results" MODIFIED="1557048856874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
@@ -38,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2529">
+            <state relative-caret-position="306">
               <caret line="26" column="51" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="e#25#47#0" expanded="true" />
@@ -56,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/test_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="-594">
               <caret line="99" column="98" selection-start-line="99" selection-start-column="98" selection-end-line="99" selection-end-column="98" />
               <folding>
                 <element signature="e#84#97#0" expanded="true" />
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="283">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="e#84#93#0" expanded="true" />
               </folding>
@@ -128,13 +126,13 @@
         <option value="$PROJECT_DIR$/tools.py" />
         <option value="$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py" />
         <option value="$PROJECT_DIR$/tools/slide_pic.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/tools/test_tool.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -146,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +155,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,23 +318,23 @@
       <workItem from="1556703940190" duration="8637000" />
       <workItem from="1557027623251" duration="4659000" />
       <workItem from="1557044045680" duration="17108000" />
+      <workItem from="1559614984759" duration="3111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35038000" />
+    <option name="totallyTimeSpent" value="38149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38503253" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38828632" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44360086" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42407808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,11 +382,6 @@
           <line>37</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -410,25 +403,7 @@
     <entry file="file://$PROJECT_DIR$/tools/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/slide_pic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_tool.py" />
     <entry file="file://D:/Enviroment/python3.6/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -446,26 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiboSpider/taobao_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#356#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2529">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -480,12 +435,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/WeiboSpider/taobao_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#84#93#0" expanded="true" />
+            <element signature="e#356#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-of-web-crawlers-master/2.天猫商品数据爬虫(已模拟登录)/tmall_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -500,12 +465,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tools/slide_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/test_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="-594">
           <caret line="99" column="98" selection-start-line="99" selection-start-column="98" selection-end-line="99" selection-end-column="98" />
           <folding>
             <element signature="e#84#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
           </folding>
         </state>
       </provider>

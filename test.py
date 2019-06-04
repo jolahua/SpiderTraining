@@ -9,15 +9,22 @@ import time
 import requests
 
 
-def main():
+def main(text=''):
 
-    t = '0(眼底照相),1(荧光造影),2(OCT),3(其他),null（未标注）'.replace(',', '，').replace('(', '（').replace(')', '）')
-    pattern = '(.*)（(.*)）'
-    for each in t.split('，'):
-        res = re.match(re.compile(pattern), each)
-        print(res.groups())
+    if text == '':
+        print('请复制您的headers到此处，输入【:q】结束输入: ')
+        for line in iter(input, ':q'):
+            text += line.replace('\'', '\"') + '\n'
+    result = []
+    text = text.replace('{', '').replace('}', '').replace(':q', '')
+    for each in text.split('\n'):
+        if each == '':
+            continue
+        tag, attr = each.split(':')[0], ''.join(each.split(':')[1:])
+        result.append(': '.join(['\'' + e.replace('', '') + '\'' for e in [tag, attr]]) + ',')
+    return '\n'.join(result)
 
 
 if __name__ == '__main__':
-    # main()
-    print(any([True for i in ['）', '（', '(', ')'] if i in '2(OCT),3(其他),null（未']))
+    print(main())
+    # print(any([True for i in ['）', '（', '(', ')'] if i in '2(OCT),3(其他),null（未']))
